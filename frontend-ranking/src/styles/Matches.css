@@ -1,0 +1,67 @@
+.card {
+  background-image: url("../../public/img/fondo-wpt.jpg");
+  width: 404px;
+  height: 454px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  color: var(--main-color);
+  border-radius: 25px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.place {
+  font-size: 50px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+.row-one {
+  padding: 40px 0 0 40px;
+  font-family: "shne_schmalfett";
+}
+
+.players {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 40px;
+  font-family: "shne_schmalfett";
+  font-size: 25px;
+}
+
+.team-one {
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 20px;
+}
+
+.team-two,
+.team-one {
+  margin-right: 50px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.set-one,
+.set-two {
+  display: flex;
+  font-size: 30px;
+}
+
+.set-two {
+  align-items: flex-start;
+  margin: 15px 0 0 0;
+}
+
+.space {
+  margin: 0 20px;
+}

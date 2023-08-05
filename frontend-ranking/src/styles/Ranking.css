@@ -1,0 +1,31 @@
+#tabla {
+    font-size: 30px;
+    border-spacing: 20px;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ranking-th {
+    color: var(--secondary-color);
+    font-family: var(--font-one);
+    font-size: 25px;
+}
+
+.ranking-td {
+    padding: 40px;
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+}
+
+.perfil {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 30px;
+}

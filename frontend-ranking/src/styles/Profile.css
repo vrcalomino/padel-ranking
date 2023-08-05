@@ -1,0 +1,142 @@
+#nombre {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+#jugador {
+    width: 300px;
+    margin-right: 0;
+    padding: 0;
+}
+
+#posicion {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+#altura {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    
+}
+
+#nacimiento {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 160px;
+}
+
+#tabla-2 {
+    font-size: 30px;
+    border-spacing: 20px;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fecha:hover {
+    color: var(--secondary-color);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    height: 550px;
+}
+
+.one {
+    grid-column: 2;
+}
+
+.two {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 100px;
+}
+
+.three {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    grid-column: 4;
+    grid-row: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.four {
+    grid-column: 4;
+    grid-row: 2;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.five {
+    grid-column: 4;
+    grid-row: 3;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'shne_schmalfett';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.partidos {
+    width: 500px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font-one);
+    font-size: 30px;
+
+}
+
+.clasificacion {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: 'ranille';
+    font-size: 25px;
+}
+
+h1, h2 {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: var(--font-one);
+    font-size: 40px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 3px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    padding: 10px;
+}

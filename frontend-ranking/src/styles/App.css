@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "shne_schmalfett";
+  src: url("../../public/fonts/sohneschmal-fett-webfont.woff2") format("woff2"),
+    url("../../public/fonts/sohneschmal-fett-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes pelota {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+:root {
+  --border-radius: 30px;
+  --main-color: white;
+  --secondary-color: #cef246;
+  --font-one: "rainyhearts";
+}
+
+body {
+  background-color: #080a45;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#barra > ul > li {
+  margin: 20px 60px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+#titulo {
+  padding: 0 500px;
+  text-align: center;
+}
+
+#historial {
+  padding-right: 40px;
+}
+
+#barra {
+  display: flex;
+  justify-content: center;
+}
+
+#pelota {
+  width: 40px;
+  margin: 0;
+}
+#pelota:hover {
+  animation: pelota 2s infinite;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--main-color);
+  border-radius: var(--border-radius);
+  width: 1520px;
+  height: 65px;
+}
+
+li > .perfil {
+  font-size: 25px;
+}

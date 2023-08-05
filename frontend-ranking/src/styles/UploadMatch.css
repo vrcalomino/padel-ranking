@@ -1,0 +1,18 @@
+#upload-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0px auto;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid white;
+    background-image: url("../../public/img/fondo-wpt.jpg");
+    color: var(--main-color);
+}
+
+select {
+    background-color: #080a45;
+    color: var(--main-color);
+}
