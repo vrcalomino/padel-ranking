@@ -1,15 +1,11 @@
-const fs = require('fs');
-const path = require('path');
 const dotenv = require('dotenv');
 
-// Construye la ruta absoluta al archivo .env desde la raíz del repositorio
-const envPath = path.join(__dirname, '.env');
+// Ruta absoluta al archivo .env
+const envPath = '../.env';
+console.log(envPath);
 
 // Lee el contenido del archivo .env si existe
-if (fs.existsSync(envPath)) {
-  const envContent = fs.readFileSync(envPath, 'utf8');
-  dotenv.parse(envContent);
-}
+dotenv.config({ path: envPath });
 
 const PORT = process.env.PORT;
 const MONGODB_URI = process.env.MONGODB_URI;
